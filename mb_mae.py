@@ -25,7 +25,7 @@ from sklearn.metrics import mean_absolute_error
 predicted_home_prices = melbourne_model.predict(X)
 mean_absolute_error(y, predicted_home_prices)
 ## 434.71594577146544
-
+###################################################
 from sklearn.model_selection import train_test_split
 
 # split data into training and validation data, for both features and target
