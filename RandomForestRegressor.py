@@ -50,3 +50,20 @@ rf_val_mae = mean_absolute_error(rf_val_predictions, val_y)
 print("Validation MAE for Random Forest Model: {}".format(rf_val_mae))
 
 ## Validation MAE for Random Forest Model: 21857.15912981083
+
+'''
+Index(['Id', 'MSSubClass', 'MSZoning', 'LotArea', 'Street', 'LotShape',
+       'LandContour', 'Utilities', 'LotConfig', 'LandSlope', 'Neighborhood',
+       'Condition1', 'Condition2', 'BldgType', 'HouseStyle', 'OverallQual',
+       'OverallCond', 'YearBuilt', 'YearRemodAdd', 'RoofStyle', 'RoofMatl',
+       'Exterior1st', 'Exterior2nd', 'ExterQual', 'ExterCond', 'Foundation',
+       'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', 'Heating',
+       'HeatingQC', 'CentralAir', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
+       'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath',
+       'BedroomAbvGr', 'KitchenAbvGr', 'KitchenQual', 'TotRmsAbvGrd',
+       'Functional', 'Fireplaces', 'GarageCars', 'GarageArea', 'PavedDrive',
+       'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch',
+       'ScreenPorch', 'PoolArea', 'MiscVal', 'MoSold', 'YrSold', 'SaleType',
+       'SaleCondition', 'SalePrice'],
+      dtype='object')
+'''
