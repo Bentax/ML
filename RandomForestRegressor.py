@@ -74,6 +74,7 @@ rf_val_mae = mean_absolute_error(rf_val_predictions, val_y)
 print("Validation MAE for Random Forest Model: {}".format(rf_val_mae))
 
 ## Validation MAE for Random Forest Model: 21857.15912981083
+## Validation MAE for Random Forest Model: 17,854
 
 '''
 Index(['Id', 'MSSubClass', 'MSZoning', 'LotArea', 'Street', 'LotShape',
