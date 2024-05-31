@@ -10,7 +10,7 @@ melbourne_data.columns
 # Don't worry about this much for now, though the code is:
 
 # dropna drops missing values (think of na as "not available")
-melbourne_data = melbourne_data.dropna(axis=0)
+melbourne_data = melbourne_data.dropna(axis=1)
 
 y = melbourne_data.Price
 
