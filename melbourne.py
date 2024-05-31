@@ -1,7 +1,7 @@
 import pandas as pd
 
 melbourne_file_path = '../input/melbourne-housing-snapshot/melb_data.csv'
-melbourne_data = pd.read_csv(melbourne_file_path) 
+melbourne_data = pd.read_csv(melbourne_file_path, index_col='ID') 
 melbourne_data.columns
 # The Melbourne data has some missing values (some houses for which some variables weren't recorded.)
 # We'll learn to handle missing values in a later tutorial.  
