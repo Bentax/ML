@@ -12,7 +12,31 @@ home_data = pd.read_csv(iowa_file_path)
 # Create target object and call it y
 y = home_data.SalePrice
 # Create X
-features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
+features = ['OpenPorchSF',
+            'EnclosedPorch',
+            '3SsnPorch',
+            'ScreenPorch',
+            'PoolArea',
+            'MiscVal',
+            'MoSold',
+            'YrSold',
+            'LotArea',
+            'MSSubClass',
+            'OverallQual',
+            'OverallCond',
+            'YearBuilt',
+            'YearRemodAdd',
+            '1stFlrSF',
+            '2ndFlrSF',
+            'FullBath',
+            'HalfBath',
+            'BedroomAbvGr',
+            'KitchenAbvGr',
+            'TotRmsAbvGrd',
+            'LowQualFinSF',
+            'GrLivArea',
+            'Fireplaces',
+            'WoodDeckSF']
 X = home_data[features]
 
 # Split into validation and training data
