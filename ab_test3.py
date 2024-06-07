@@ -18,4 +18,7 @@ def plot(betas, names, linf=0, lsup=0.01):
 
 plot([beta_C, beta_T], names=["Control", "Test"])
 
+from mpmath import betainc
+p=betainc(a_T, b_T, 0.003,1, regularized=True) #result: 0.4811256685381254
+
 #https://education.yandex.ru/journal/prostoy-gid-po-bayesovskomu-a-b-testirovaniyu-na-python
