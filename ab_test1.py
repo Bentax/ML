@@ -20,3 +20,4 @@ prob=calc_prob_between(beta_T, beta_C)
 
 print (f"Test option lift Conversion Rates by {lift*100:2.2f}% with {prob*100:2.1f}% probability.")
 #output: Test option lift Conversion Rates by 59.68% with 98.2% probability.
+#https://education.yandex.ru/journal/prostoy-gid-po-bayesovskomu-a-b-testirovaniyu-na-python
